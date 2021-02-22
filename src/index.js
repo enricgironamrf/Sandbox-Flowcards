@@ -5,7 +5,7 @@ var port = 3000;
 
 var app = express();
 
-// set public resoures folder
+// set public resources folder
 app.use(express.static(__dirname + "/public"));
 
 // set your first route
